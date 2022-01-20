@@ -1,8 +1,11 @@
 import React from 'react';
- 
+import { useWindowTop } from './hooks';
+
 export default function Nav() {
-	return (
-		<nav className="flex items-center justify-between flex-wrap p-6 fixed w-full z-10 top-0 ">
+  const isShow = useWindowTop();
+  return (
+    <div className={`${!isShow ? 'hidden' : ''}`}>
+      <nav className={`flex items-center justify-between flex-wrap p-6 fixed w-full z-50 top-0`}>
         <div className="flex items-center flex-shrink-0 text-white mr-6">
           <a className="text-white no-underline hover:text-white hover:no-underline" href="#">
             <span className="text-2xl pl-2"><i className="em em-grinning"></i></span>
@@ -29,5 +32,6 @@ export default function Nav() {
           </ul>
         </div>
       </nav>
-	)
+    </div>
+  )
 }

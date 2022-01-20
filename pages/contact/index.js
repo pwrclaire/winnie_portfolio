@@ -21,7 +21,6 @@ export default function ContactForm() {
 
 	return (
 		<>
-			<Nav />
 			<div className="min-h-full flex items-center justify-center py-20 px-4 sm:px-6 lg:px-8">
 				<Image className="object-cover absolute shadow-md brightness-50 object-right" src="https://res.cloudinary.com/wrp/image/upload/v1642146255/winnie/bmw/BMW340i_9_hh9jcw.jpg" width={6} height={9} layout='fill' />
 				{submitted ?
