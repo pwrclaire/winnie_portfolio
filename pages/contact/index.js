@@ -1,7 +1,6 @@
 import React, { useState, useRef } from "react";
 import Image from 'next/image';
 import emailjs from 'emailjs-com';
-import Nav from '../../components/nav'
 
 export default function ContactForm() {
 	const [submitted, setSubmitted] = useState(false);
