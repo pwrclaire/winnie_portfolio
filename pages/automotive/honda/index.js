@@ -5,7 +5,7 @@ import { Banner } from '../../../components/banner';
 export default function Honda() {
   return (
     <div>
-      {Banner('Honda')}
+      {Banner('Honda Civic Hatchback Sport')}
         <div className="grid grid-cols-2 gap-2 md:flex md:flex-col">
         <div className='col-span-2'>
             <Image className="object-cover shadow-md object-right" src="https://res.cloudinary.com/wrp/image/upload/v1642576911/winnie/civic/DSC_1924_lnrjjf.jpg" width={9} height={6} layout='responsive'/>
