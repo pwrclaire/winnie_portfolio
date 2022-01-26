@@ -28,7 +28,7 @@ export default function People() {
         <a a href="/portrait/jhan">
           <div style={{ width: "100%", height: "100%", position: "relative" }}>
             <p className="absolute w-full align-center text-center z-10 text-white text-5xl inset-y-1/3 md:text-4xl pointer-events-none">
-              Khushboo & Jhan
+              Khushboo & J Han
             </p>
             <Image
               className="brightness-50 hover:brightness-100 object-cover relative shadow-md object-center lg:object-top md:object-center"
