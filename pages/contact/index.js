@@ -39,12 +39,12 @@ export default function ContactForm() {
         />
         {submitted ? (
           <>
-            <div className="py-24 text-3xl z-10 text-white">
+            <div className="py-24 text-3xl z-10 text-white top-16">
               Thank you! We'll be in touch soon.
             </div>
           </>
         ) : (
-          <div className="max-w-md w-full absolute top-40 space-y-10 z-10 p-12 m-12 bg-slate-50/50 sm:bg-inherit">
+          <div className="max-w-md w-full absolute top-16 space-y-10 z-10 p-12 m-12 bg-slate-50/50 sm:bg-inherit">
             <div>
               <h2 className="mt-6 text-center text-4xl font-extrabold text-white">
                 Contact me!
