@@ -5,7 +5,7 @@ import { Banner } from '../../../components/banner';
 export default function Chris() {
   return (
     <div>
-      {Banner('Chris & Raph')}
+      <Banner title='Chris & Raph' />
       <div className="grid grid-cols-2 md:grid-cols-1 gap-2 md:flex md:flex-col">
         <div className='col-span-2 md:hidden'>
           <Image className="object-cover shadow-md object-right" src="https://res.cloudinary.com/wrp/image/upload/v1642146257/winnie/chris_raph/DSC_3436_m2ezxi.jpg" width={9} height={6} layout='responsive' />

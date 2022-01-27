@@ -5,7 +5,7 @@ import { Banner } from "../../../components/banner";
 export default function Honda() {
   return (
     <div>
-      {Banner("Honda Civic Hatchback Sport")}
+      <Banner title="Honda Civic Hatchback Sport" />
       <div className="grid grid-cols-2 gap-2 md:flex md:flex-col">
         <div className="col-span-2 md:hidden">
           <Image

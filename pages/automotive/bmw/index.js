@@ -5,7 +5,7 @@ import { Banner } from '../../../components/banner';
 export default function BWM() {
   return (
     <div>
-      {Banner('BMW 340i')}
+      <Banner title='BMW 340i'/>
         <div className="grid grid-cols-2 gap-2 md:flex md:flex-col">
         <div className='col-span-2'>
             <Image className="object-cover shadow-md object-right" src="https://res.cloudinary.com/wrp/image/upload/v1642146255/winnie/bmw/BMW340i_9_hh9jcw.jpg" width={9} height={6} layout='responsive'/>

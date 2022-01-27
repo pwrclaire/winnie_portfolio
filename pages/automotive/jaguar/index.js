@@ -5,7 +5,7 @@ import { Banner } from '../../../components/banner';
 export default function Jaguar() {
   return (
     <div>
-      {Banner('Jaguar F-Type')}
+      <Banner title='Jaguar F-Type' />
       <div className="grid grid-cols-2 gap-2 md:flex md:flex-col">
         <div className='col-span-2'>
           <Image className="object-cover shadow-md object-right" src="https://res.cloudinary.com/wrp/image/upload/v1642146255/winnie/jaguar/Headlight_uplu4q.jpg" width={9} height={6} layout='responsive' />

@@ -1,8 +1,17 @@
 import React from "react";
 import { useWindowTop } from "./hooks";
 
-export const Banner = (title) => {
+export const Banner = ({ title }) => {
   const showBanner = useWindowTop();
+  // const name = () => {
+  //   return (
+  //     <>{title}</>
+  //   )
+  // }
+  const name = () => {
+    <p>{title}</p>
+  }
+  
   return (
     <div
       className={`absolute w-full h-screen opacity-75 z-10 ${
@@ -10,11 +19,11 @@ export const Banner = (title) => {
       } transition-all duration-500`}
     >
       <div
-        className={`z-20 text-7xl md:text-5xl text-white relative text-center inset-y-1/2 md:inset-y-1/3 ${
+        className={`z-20 text-7xl md:text-5xl text-white relative text-center text-wrap inset-y-1/2 md:inset-y-1/3 ${
           !showBanner && "hidden"
         }`}
       >
-        {title}
+        <span className="break-normal">{title}</span>
       </div>
     </div>
   );

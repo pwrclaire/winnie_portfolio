@@ -5,7 +5,7 @@ export default function People() {
   return (
     <div className="grid grid-cols-2 w-full h-screen lg:flex lg:flex-col">
       {/* chris */}
-      <div className="lg:h-screen">
+      <div className="lg:h-screen md:mb-2">
         <a a href="/portrait/chris">
           <div style={{ width: "100%", height: "100%", position: "relative" }}>
             <p className="absolute z-10 w-full align-center text-white text-center text-5xl md:text-4xl inset-y-1/2 pointer-events-none">
@@ -28,7 +28,7 @@ export default function People() {
         <a a href="/portrait/jhan">
           <div style={{ width: "100%", height: "100%", position: "relative" }}>
             <p className="absolute w-full align-center text-center z-10 text-white text-5xl inset-y-1/2 md:text-4xl pointer-events-none">
-              Khushboo & J Han
+              Khushboo & J&nbsp;Han
             </p>
             <Image
               className="brightness-50 hover:brightness-100 object-cover relative shadow-md object-center lg:object-top md:object-center"
