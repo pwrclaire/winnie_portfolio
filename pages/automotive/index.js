@@ -7,7 +7,7 @@ export default function Cars() {
       {/* bmw */}
       <div className="w-1/2 md:w-full relative md:mb-3">
         <a a href="/automotive/bmw">
-          <p className="absolute z-10 inset-0 top-1/2 align-center  text-white text-center allSize:text-6xl md:text-4xl  text-5xl  md:inset-y-1/2 pointer-events-none">
+          <p className="absolute z-10 inset-0 top-[45%] align-center  text-white text-center allSize:text-6xl md:text-4xl  text-5xl  md:inset-y-1/2 pointer-events-none">
             BMW 340i
           </p>
           <Image
@@ -23,7 +23,7 @@ export default function Cars() {
       {/* jaguar */}
       <div className="w-1/2 md:w-full relative md:mb-3">
         <a a href="/automotive/jaguar">
-          <p className="absolute align-center inset-0 top-1/2 text-center z-10 text-white allSize:text-6xl md:text-4xl text-5xl  sm:text-4xl pointer-events-none">
+          <p className="absolute align-center inset-0 top-[45%] text-center z-10 text-white allSize:text-6xl md:text-4xl text-5xl sm:text-4xl pointer-events-none">
             Jaguar F-Type
           </p>
           <Image
@@ -39,7 +39,7 @@ export default function Cars() {
       {/* honda */}
       <div className="w-full relative md:hidden">
         <a a href="/automotive/honda">
-          <p className="absolute z-10 inset-0 top-1/2 align-center justify-center text-white text-center allSize:text-6xl text-5xl md:text-4xl sm:text-xs pointer-events-none">
+          <p className="absolute z-10 inset-0 top-[45%] align-center justify-center text-white text-center allSize:text-6xl text-5xl md:text-4xl sm:text-xs pointer-events-none">
             Honda Civic Hatchback Sport
           </p>
           <Image
@@ -54,7 +54,7 @@ export default function Cars() {
       </div>
       <div className="w-full relative hidden md:block">
         <a a href="/automotive/honda">
-          <p className="absolute z-10 inset-0 top-1/2 align-center justify-center text-white text-center allSize:text-6xl text-5xl md:text-4xl sm:text-xs pointer-events-none">
+          <p className="absolute z-10 inset-0 top-[45%] align-center justify-center text-white text-center allSize:text-6xl text-5xl md:text-4xl sm:text-xs pointer-events-none">
             Honda Civic Hatchback Sport
           </p>
           <Image

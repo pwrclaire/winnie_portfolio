@@ -5,7 +5,7 @@ export default function People() {
   return (
     <div className="grid grid-cols-2 w-full h-screen lg:flex lg:flex-col">
       {/* chris */}
-      <div className="lg:h-screen md:mb-2">
+      <div className="lg:h-screen md:mb-3">
         <a a href="/portrait/chris">
           <div style={{ width: "100%", height: "100%", position: "relative" }}>
             <p className="absolute z-10 w-full align-center text-white text-center text-5xl md:text-4xl inset-y-1/2 pointer-events-none">
@@ -31,7 +31,7 @@ export default function People() {
               Khushboo & J&nbsp;Han
             </p>
             <Image
-              className="brightness-50 hover:brightness-100 object-cover relative shadow-md object-center lg:object-top md:object-center"
+              className="brightness-50 hover:brightness-100 object-cover relative shadow-md object-center lg:object-top md:object-top"
               src="https://res.cloudinary.com/wrp/image/upload/v1642146256/winnie/kush_jhan/JHan_Khush4_epzld2.jpg"
               width={6}
               height={7}
