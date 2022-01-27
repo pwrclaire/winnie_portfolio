@@ -8,7 +8,7 @@ export default function People() {
       <div className="lg:h-screen">
         <a a href="/portrait/chris">
           <div style={{ width: "100%", height: "100%", position: "relative" }}>
-            <p className="absolute z-10 w-full align-center text-white text-center text-5xl md:text-4xl inset-y-1/3 pointer-events-none">
+            <p className="absolute z-10 w-full align-center text-white text-center text-5xl md:text-4xl inset-y-1/2 pointer-events-none">
               Chris & Raph
             </p>
             <Image
@@ -27,7 +27,7 @@ export default function People() {
       <div className="lg:h-screen">
         <a a href="/portrait/jhan">
           <div style={{ width: "100%", height: "100%", position: "relative" }}>
-            <p className="absolute w-full align-center text-center z-10 text-white text-5xl inset-y-1/3 md:text-4xl pointer-events-none">
+            <p className="absolute w-full align-center text-center z-10 text-white text-5xl inset-y-1/2 md:text-4xl pointer-events-none">
               Khushboo & J Han
             </p>
             <Image
