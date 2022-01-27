@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function People() {
   return (
-    <div className="grid grid-cols-1 w-full h-screen">
+    <div className="grid grid-cols-1 w-full">
       <a a href="/wedding/wendy_kevin">
         <p className="absolute z-10 w-full align-center text-white text-center text-5xl inset-y-1/2 pointer-events-none">
           Wendy & Kevin

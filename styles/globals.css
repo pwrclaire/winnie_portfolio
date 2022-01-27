@@ -19,6 +19,9 @@
     .text-shadow-none {
       text-shadow: none;
     }
+    .text-shadow-grey-light {
+      text-shadow: 0.5px 0.5px 1px grey;
+    }
     .text-shadow-grey {
 			text-shadow: 1px 1px 2px grey;
 		}
@@ -32,4 +35,10 @@
       text-shadow: 15px 15px 30px grey;
     }
   }
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }

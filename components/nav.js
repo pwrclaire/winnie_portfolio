@@ -9,13 +9,34 @@ export default function Nav() {
       {/* hamburger menu */}
       <div className="md:flex md:justify-end hidden">
         <Menu right width={280} styles={styles}>
-          <a href="/"><p className="hover:text-shadow-grey">Home</p></a>
-          <ul>Portfolio
-            <a href="/automotive"><li className="pl-3 hover:text-shadow-grey">Automotive</li></a>
-            <a href="/portrait"><li className="pl-3 hover:text-shadow-grey">Portrait</li></a>
-            <a href="/wedding"><li className="pl-3 hover:text-shadow-grey">Wedding</li></a>
+          <a href="/">
+            <p className="text-shadow-grey-light hover:text-shadow-grey">
+              Home
+            </p>
+          </a>
+          <ul>
+            <span>Portfolio</span>
+            <a href="/automotive">
+              <li className="pl-3 text-shadow-grey-light hover:text-shadow-grey">
+                Automotive
+              </li>
+            </a>
+            <a href="/portrait">
+              <li className="pl-3 text-shadow-grey-light hover:text-shadow-grey">
+                Portrait
+              </li>
+            </a>
+            <a href="/wedding">
+              <li className="pl-3 text-shadow-grey-light hover:text-shadow-grey">
+                Wedding
+              </li>
+            </a>
           </ul>
-          <a href="/contact"><p className="hover:text-shadow-grey">Contact</p></a>
+          <a href="/contact">
+            <p className="text-shadow-grey-light hover:text-shadow-grey">
+              Contact
+            </p>
+          </a>
         </Menu>
       </div>
 

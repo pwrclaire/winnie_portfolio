@@ -3,11 +3,7 @@ import { useWindowTop } from "./hooks";
 
 export const Banner = ({ title }) => {
   const showBanner = useWindowTop();
-  // const name = () => {
-  //   return (
-  //     <>{title}</>
-  //   )
-  // }
+
   const name = () => {
     <p>{title}</p>
   }
@@ -19,7 +15,7 @@ export const Banner = ({ title }) => {
       } transition-all duration-500`}
     >
       <div
-        className={`z-20 text-7xl md:text-5xl text-white relative text-center text-wrap inset-y-1/2 md:inset-y-1/3 ${
+        className={`z-20 text-7xl md:text-4xl text-white relative text-center text-wrap inset-y-1/2 md:inset-y-1/3 ${
           !showBanner && "hidden"
         }`}
       >
