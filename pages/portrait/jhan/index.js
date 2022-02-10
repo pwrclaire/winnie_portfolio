@@ -1,13 +1,16 @@
 import React from "react";
 import Image from "next/image";
-import { Banner } from "../../../components/banner";
+import Nav from "../../../components/nav";
 
 export default function Jhan() {
   return (
-    <div>
-      <Banner title='Khushboo & J&nbsp;Han' />
-      <div className="grid grid-cols-2 gap-2 md:flex md:flex-col">
-        <div className="col-span-2 md:hidden">
+    <>
+    <Nav />
+      <div className='mt-16 p-6 relative'>
+      <h2 className='text-5xl md:text-4xl text-center py-6'>Khushboo & J Han</h2>
+
+      <div className="grid grid-cols-2 gap-6 md:flex md:flex-col">
+        <div className="col-span-2">
           <Image
             className="object-cover shadow-md object-right"
             src="https://res.cloudinary.com/wrp/image/upload/v1642146256/winnie/kush_jhan/JHan_Khush8_inr3jq.jpg"
@@ -30,28 +33,20 @@ export default function Jhan() {
           height={3}
           layout="responsive"
         />
-        <div className="col-span-2 md:block hidden">
-          <Image
-            className="object-cover shadow-md object-right"
-            src="https://res.cloudinary.com/wrp/image/upload/v1642146256/winnie/kush_jhan/JHan_Khush8_inr3jq.jpg"
-            width={9}
-            height={6}
-            layout="responsive"
-          />
-        </div>
+       
         <Image
           className="object-cover"
           src="https://res.cloudinary.com/wrp/image/upload/v1642146256/winnie/kush_jhan/JHan_Khush9_kyg5ii.jpg"
-          width={9}
-          height={6}
+          width={6}
+          height={9}
           layout="responsive"
         />
 
         <Image
           className="object-cover"
           src="https://res.cloudinary.com/wrp/image/upload/v1642146256/winnie/kush_jhan/JHan_Khush6_ywxlhm.jpg"
-          width={9}
-          height={6}
+          width={6}
+          height={9}
           layout="responsive"
         />
         <div className="col-span-2">
@@ -65,5 +60,6 @@ export default function Jhan() {
         </div>
       </div>
     </div>
+    </>
   );
 }
