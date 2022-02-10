@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import { slide as Menu } from "react-burger-menu";
 
 export default function Nav() {
   return (
     <nav
-      className={`absolute flex items-center justify-end p-6 w-full z-50 top-0`}
+      className={`absolute flex items-center justify-end p-10 w-full z-50 top-0 h-20`}
     >
+      {/* brand */}
+      <h2 className="w-full text-left text-black text-2xl"><a href="/"><strong className="text-3xl">WINNIE LOK</strong> PHOTOGRAPHY</a></h2>
       {/* hamburger menu */}
       <div className="md:flex md:justify-end hidden">
         <Menu right width={280} styles={styles}>
@@ -41,23 +43,20 @@ export default function Nav() {
       </div>
 
       <div
-        className="w-full flex-grow flex md:hidden lg:items-center md:w-auto md:block pt-6 md:pt-0"
+        className="w-full flex-grow flex lg:items-center md:w-auto md:pt-0 md:hidden"
         id="nav-content"
       >
-        {/* <div className="p-20">
-          
-        </div> */}
         <ul className="list-reset flex justify-end flex-1 items-center">
           <li className="mr-3">
             <a
-              className="inline-block py-2 px-4 text-white no-underline"
+              className="inline-block py-2 px-4 text-black no-underline"
               href="/"
             >
               Home
             </a>
           </li>
           <div className="group inline-block relative">
-            <button className="text-white font-semibold py-2 px-4 rounded inline-flex items-center">
+            <button className="text-black py-2 px-4 rounded inline-flex items-center">
               <span className="mr-1">Portfolio</span>
               <svg
                 className="fill-current h-4 w-4"
@@ -96,7 +95,7 @@ export default function Nav() {
           </div>
           <li className="mr-3">
             <a
-              className="inline-block py-2 px-4 text-white no-underline"
+              className="inline-block py-2 px-4 text-black no-underline"
               href="/contact"
             >
               Contact
@@ -111,28 +110,28 @@ export default function Nav() {
 const styles = {
   bmBurgerButton: {
     position: "absolute",
-    width: "36px",
-    height: "30px",
+    width: "25px",
+    height: "20px",
     right: "36px",
-    top: "36px",
+    top: "35px",
   },
   bmBurgerBars: {
-    background: "white",
+    background: "black",
     height: "4px",
   },
   bmBurgerBarsHover: {
     background: "#a90000",
   },
   bmCrossButton: {
-    top: "15px",
-    right: "15px",
+    top: "30px",
+    right: "30px",
     height: "40px",
-    width: "40px",
+    width: "50px",
   },
   bmCross: {
     background: "rgb(75 85 99)",
     width: "5px",
-    height: "35px",
+    height: "55px",
   },
   bmMenuWrap: {
     position: "fixed",

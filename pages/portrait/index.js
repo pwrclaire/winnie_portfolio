@@ -1,45 +1,41 @@
 import React from "react";
 import Image from "next/image";
+import Nav from "../../components/nav";
 
 export default function People() {
   return (
-    <div className="grid grid-cols-2 w-full h-screen lg:flex lg:flex-col">
-      {/* chris */}
-      <div className="lg:h-screen md:mb-3">
-        <a a href="/portrait/chris">
-          <div style={{ width: "100%", height: "100%", position: "relative" }}>
-            <p className="absolute z-10 w-full align-center text-white text-center text-5xl md:text-4xl inset-y-1/2 pointer-events-none">
-              Chris & Raph
-            </p>
+    <>
+      <Nav />
+      <div className="grid grid-cols-2 md:grid-cols-1 gap-6 p-10 mt-16 top-28">
+        {/* chris */}
+        <div className="relative h-[90vh]">
+          <a a href="/portrait/chris">
+          <div class="opacity-0 hover:opacity-100 bg-black bg-opacity-30  duration-300 absolute inset-0 z-10 flex justify-center items-center text-6xl text-white font-semibold">Chris & Raph</div>
             <Image
-              className="object-cover relative shadow-md brightness-50 hover:brightness-100 object-bottom h-screen"
+              className="shadow-md brightness-100 hover:brightness-50 object-center z-5"
               src="https://res.cloudinary.com/wrp/image/upload/v1642146257/winnie/chris_raph/DSC_3436_m2ezxi.jpg"
               width={6}
               height={7}
               layout="fill"
               objectFit="cover"
             />
-          </div>
-        </a>
-      </div>
-
-      {/* jhan */}
-      <div className="lg:h-screen">
-        <a a href="/portrait/jhan">
-          <div style={{ width: "100%", height: "100%", position: "relative" }}>
-            <p className="absolute w-full align-center text-center z-10 text-white text-5xl inset-y-1/2 md:text-4xl pointer-events-none">
-              Khushboo & J&nbsp;Han
-            </p>
+          </a>
+        </div>
+        {/* jhan */}
+        <div className="relative h-[90vh]">
+          <a a href="/portrait/jhan">
+          <div class="opacity-0 hover:opacity-100 bg-black bg-opacity-30  duration-300 absolute inset-0 z-10 flex justify-center items-center text-center text-6xl text-white font-semibold">Khushboo & J&nbsp;Han</div>
             <Image
-              className="brightness-50 hover:brightness-100 object-cover relative shadow-md object-center lg:object-top md:object-top"
+              className="shadow-md brightness-100 hover:brightness-50 object-right z-5"
               src="https://res.cloudinary.com/wrp/image/upload/v1642146256/winnie/kush_jhan/JHan_Khush4_epzld2.jpg"
               width={6}
               height={7}
               layout="fill"
+              objectFit="cover"
             />
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
-    </div>
+    </>
   );
 }

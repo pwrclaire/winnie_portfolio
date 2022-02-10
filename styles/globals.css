@@ -34,6 +34,18 @@
     .text-shadow-lg-grey {
       text-shadow: 15px 15px 30px grey;
     }
+    .text-shadow-white {
+			text-shadow: 1px 1px 2px white;
+		}
+    .text-shadow-sm-white {
+      text-shadow: 2px 2px 4px white;
+    }
+    .text-shadow-md-white {
+      text-shadow: 4px 4px 8px white;
+    }
+    .text-shadow-lg-white {
+      text-shadow: 15px 15px 30px white;
+    }
   }
 }
 

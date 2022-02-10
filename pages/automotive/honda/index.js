@@ -1,13 +1,16 @@
 import React from "react";
 import Image from "next/image";
-import { Banner } from "../../../components/banner";
+import Nav from "../../../components/nav";
 
 export default function Honda() {
   return (
-    <div>
-      <Banner title="Honda Civic Hatchback Sport" />
-      <div className="grid grid-cols-2 gap-2 md:flex md:flex-col">
-        <div className="col-span-2 md:hidden">
+    <>
+    <Nav />
+      <div className='mt-16 p-6 relative'>
+        <h2 className='text-5xl md:text-4xl text-center py-6'>Honda Civic Hatchback Sport</h2>
+
+      <div className="grid grid-cols-2 gap-6 md:flex md:flex-col">
+        <div className="col-span-2">
           <Image
             className="object-cover shadow-md object-right"
             src="https://res.cloudinary.com/wrp/image/upload/v1642576911/winnie/civic/DSC_1924_lnrjjf.jpg"
@@ -23,16 +26,7 @@ export default function Honda() {
           height={3}
           layout="responsive"
         />
-        <div className="col-span-2 hidden md:block md:pt-2">
-          <Image
-            className="object-cover shadow-md object-right"
-            src="https://res.cloudinary.com/wrp/image/upload/v1642576911/winnie/civic/DSC_1924_lnrjjf.jpg"
-            width={9}
-            height={6}
-            layout="responsive"
-          />
-        </div>
-        <div className="grid grid-row-2 gap-2">
+        <div className="grid grid-row-2 gap-6">
           <Image
             className="object-cover shadow-md"
             src="https://res.cloudinary.com/wrp/image/upload/v1642576911/winnie/civic/HC6_yoxgut.jpg"
@@ -63,7 +57,7 @@ export default function Honda() {
           layout="responsive"
         />
       </div>
-      <div className="col-span-2">
+      <div className="col-span-2 mt-6">
         <Image
           className="object-cover shadow-md object-right"
           src="https://res.cloudinary.com/wrp/image/upload/v1642576912/winnie/civic/DSC_1914_xiumjc.jpg"
@@ -73,5 +67,6 @@ export default function Honda() {
         />
       </div>
     </div>
+    </>
   );
 }
