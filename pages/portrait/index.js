@@ -8,7 +8,7 @@ export default function People() {
       <Nav />
       <div className="grid grid-cols-2 md:grid-cols-1 gap-6 p-10 mt-16 top-28">
         {/* chris */}
-        <div className="relative h-[90vh]">
+        <div className="relative h-[90vh] md:h-[40vh]">
           <a a href="/portrait/chris">
           <div class="opacity-0 hover:opacity-100 bg-black bg-opacity-30  duration-300 absolute inset-0 z-10 flex justify-center items-center text-6xl text-white font-semibold">Chris & Raph</div>
             <Image
@@ -22,7 +22,7 @@ export default function People() {
           </a>
         </div>
         {/* jhan */}
-        <div className="relative h-[90vh]">
+        <div className="relative h-[90vh] md:h-[40vh]">
           <a a href="/portrait/jhan">
           <div class="opacity-0 hover:opacity-100 bg-black bg-opacity-30  duration-300 absolute inset-0 z-10 flex justify-center items-center text-center text-6xl text-white font-semibold">Khushboo & J&nbsp;Han</div>
             <Image

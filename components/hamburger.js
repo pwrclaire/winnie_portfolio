@@ -5,14 +5,14 @@ export default function Hamburger() {
   const [open, setOpen] = useState(false);
   return (
     <nav
-      className={`absolute flex items-center justify-end p-6 w-full z-50 top-0`}
+      className={`absolute flex items-center justify-end p-6 w-full z-50 top-0 overflow-hidden h-72`}
     >
       <button
-        class="text-[#4AB1A1] w-12 h-12 relative focus:outline-none bg-white"
+        class="text-[#4AB1A1] absolute top-12 right-14 focus:outline-none bg-white"
         onClick={() => setOpen(!open)}
       >
         <span class="sr-only">Open main menu</span>
-        <div class="block w-5 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <div class="block w-5 absolute left-0 top-0">
           <span
             aria-hidden="true"
             className={`block absolute h-[3px] w-8 bg-current transform transition duration-500 ease-in-out ${
@@ -48,38 +48,38 @@ export default function Hamburger() {
       //   className={`absolute flex items-center justify-end p-6 w-full z-50 top-0`}
       // >
       //   <div className="flex md:justify-end">
-      //     <Menu right width={280} styles={styles} pageWrapId={"page-wrap"} outerContainerId={"outer-container"}>
-      //     <main >
-      //       <a href="/">
-      //         <p className="text-shadow-grey-light hover:text-shadow-white">
-      //           Home
-      //         </p>
-      //       </a>
-      //       <ul>
-      //         <span>Portfolio</span>
-      //         <a href="/automotive">
-      //           <li className="pl-3 text-shadow-grey-light hover:text-shadow-white">
-      //             Automotive
-      //           </li>
-      //         </a>
-      //         <a href="/portrait">
-      //           <li className="pl-3 text-shadow-grey-light hover:text-shadow-white">
-      //             Portrait
-      //           </li>
-      //         </a>
-      //         <a href="/wedding">
-      //           <li className="pl-3 text-shadow-grey-light hover:text-shadow-white">
-      //             Wedding
-      //           </li>
-      //         </a>
-      //       </ul>
-      //       <a href="/contact">
-      //         <p className="text-shadow-grey-light hover:text-shadow-white">
-      //           Contact
-      //         </p>
-      //       </a>
-      //       </main>
-      //     </Menu>
+          // <Menu right width={280} styles={styles} pageWrapId={"page-wrap"} outerContainerId={"outer-container"}>
+          // <main >
+          //   <a href="/">
+          //     <p className="text-shadow-grey-light hover:text-shadow-white">
+          //       Home
+          //     </p>
+          //   </a>
+          //   <ul>
+          //     <span>Portfolio</span>
+          //     <a href="/automotive">
+          //       <li className="pl-3 text-shadow-grey-light hover:text-shadow-white">
+          //         Automotive
+          //       </li>
+          //     </a>
+          //     <a href="/portrait">
+          //       <li className="pl-3 text-shadow-grey-light hover:text-shadow-white">
+          //         Portrait
+          //       </li>
+          //     </a>
+          //     <a href="/wedding">
+          //       <li className="pl-3 text-shadow-grey-light hover:text-shadow-white">
+          //         Wedding
+          //       </li>
+          //     </a>
+          //   </ul>
+          //   <a href="/contact">
+          //     <p className="text-shadow-grey-light hover:text-shadow-white">
+          //       Contact
+          //     </p>
+          //   </a>
+          //   </main>
+          // </Menu>
       //   </div>
       // </nav>
   );
