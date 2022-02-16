@@ -33,11 +33,12 @@ export default function Hamburger() {
           ></span>
         </div>
       </button>
-      <div className={`${open ? 'right-8' : '-right-40'} top-16 absolute text-3xl text-right transition-all duration-500`}>
-        <div className="flex flex-col">
+      <div className={`${open ? 'right-8' : '-right-40'} top-20 absolute text-3xl text-right transition-all duration-500`}>
+        <div className="flex flex-col gap-2">
           <a href='/automotive' className="hover:text-shadow-grey">Automotive</a>
           <a href='/portrait' className="hover:text-shadow-grey">Portrait</a>
           <a href='/wedding' className="hover:text-shadow-grey">Wedding</a>
+          <a href='/contact' className="hover:text-shadow-grey">Contact</a>
         </div>
       </div>
     </nav>
