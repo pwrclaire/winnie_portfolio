@@ -10,7 +10,7 @@ export default function Cars() {
         {/* jaguar */}
         <div className="relative h-[90vh]">
           <a a href="/automotive/jaguar">
-          <div class="opacity-0 hover:opacity-100 bg-black bg-opacity-30  duration-300 absolute inset-0 z-10 flex justify-center items-center text-6xl text-white font-semibold">Jaguar F-Type</div>
+          <div class="opacity-0 hover:opacity-100 bg-black bg-opacity-30 duration-300 absolute inset-0 z-10 flex justify-center items-center text-6xl text-white font-semibold">Jaguar F-Type</div>
             <Image
               className="shadow-md brightness-100 hover:brightness-50 object-right z-5"
               src="https://res.cloudinary.com/wrp/image/upload/v1642146255/winnie/jaguar/Headlight_uplu4q.jpg"

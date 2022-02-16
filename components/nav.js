@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { slide as Menu } from "react-burger-menu";
 
 export default function Nav() {
+  const [open, setOpen] = useState(false);
   return (
     <nav
-      className={`absolute flex items-center justify-end p-10 w-full z-50 top-0 h-20`}
+      className={`absolute flex items-center justify-end p-10 w-full z-50 top-0 h-25`}
     >
       {/* brand */}
       <h2 className="w-full text-left text-black text-2xl"><a href="/"><strong className="text-3xl">WINNIE LOK</strong> PHOTOGRAPHY</a></h2>
@@ -56,7 +57,7 @@ export default function Nav() {
             </a>
           </li>
           <div className="group inline-block relative">
-            <button className="text-black py-2 px-4 rounded inline-flex items-center">
+            <button className="text-black px-4 rounded inline-flex items-center">
               <span className="mr-1">Portfolio</span>
               <svg
                 className="fill-current h-4 w-4"
@@ -66,10 +67,14 @@ export default function Nav() {
                 <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
               </svg>
             </button>
-            <ul className="absolute hidden text-gray-700 pt-1 group-hover:block">
+            <ul className={`absolute hidden text-black pt-1
+              group-hover:block
+              group-hover:animate-nav-reveal
+              group-hover:transition-all`}>
               <li className="">
                 <a
-                  className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                  className="
+                    rounded-t hover:text-shadow-grey py-2 px-4 block whitespace-no-wrap"
                   href="/automotive"
                 >
                   Automotive
@@ -77,7 +82,7 @@ export default function Nav() {
               </li>
               <li className="">
                 <a
-                  className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                  className=" hover:text-shadow-grey py-2 px-4 block whitespace-no-wrap"
                   href="/portrait"
                 >
                   Portrait
@@ -85,7 +90,7 @@ export default function Nav() {
               </li>
               <li className="">
                 <a
-                  className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                  className="rounded-b hover:text-shadow py-2 px-4 block whitespace-no-wrap"
                   href="/wedding"
                 >
                   Wedding

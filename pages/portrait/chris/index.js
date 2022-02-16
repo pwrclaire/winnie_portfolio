@@ -26,9 +26,9 @@ export default function Chris() {
         <div className='col-span-2'>
           <Image priority className="object-cover shadow-md" src="https://res.cloudinary.com/wrp/image/upload/v1642146257/winnie/chris_raph/DSC_3350_taz9uy.jpg" width={9} height={6} layout='responsive' />
         </div>
-        <div className='col-span-2'>
+        {/* <div className='col-span-2'>
         <Image priority className="object-cover shadow-md" src="https://res.cloudinary.com/wrp/image/upload/v1642146256/winnie/chris_raph/DSC_3375_lotz9e.jpg" width={6} height={9} layout='responsive' />
-        </div>
+        </div> */}
       </div>
     </div>
     </>
