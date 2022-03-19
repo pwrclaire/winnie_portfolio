@@ -9,7 +9,7 @@ export default function Hamburger() {
     >
       <span>
         <button
-          className="text-[#4AB1A1] absolute top-12 right-14 bg-white w-[35px] h-[28px]"
+          className="text-[#4AB1A1] absolute top-12 right-6 bg-white w-[35px] h-[28px]"
           onClick={() => setOpen(!open)}
         >
           {/* <span className="sr-only">Open main menu</span> */}
@@ -35,7 +35,7 @@ export default function Hamburger() {
           </div>
         </button>
       </span>
-      <div className={`${open ? 'right-5' : '-right-60'} top-20 absolute text-3xl text-right transition-all duration-500 pt-1 pl-4 pr-12 pb-2 bg-white`}>
+      <div className={`${open ? 'right-0' : '-right-60'} top-20 absolute text-3xl text-right transition-all duration-500 pt-1 pl-4 pr-8 pb-2 bg-white`}>
         <div className="flex flex-col gap-2">
           <a href='/automotive' className="hover:text-shadow-grey">Automotive</a>
           <a href='/portrait' className="hover:text-shadow-grey">Portrait</a>

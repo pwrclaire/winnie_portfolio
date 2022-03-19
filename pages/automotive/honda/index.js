@@ -19,29 +19,29 @@ export default function Honda() {
             layout="responsive"
           />
         </div>
-        <Image
+        {/* <Image
           className="object-cover shadow-md"
           src="https://res.cloudinary.com/wrp/image/upload/v1642576911/winnie/civic/HC_1_jvjbi1.jpg"
           width={2}
           height={3}
           layout="responsive"
-        />
-        <div className="grid grid-row-2 gap-6">
+        /> */}
+        {/* <div className="col-span-2 gap-6"> */}
           <Image
             className="object-cover shadow-md"
             src="https://res.cloudinary.com/wrp/image/upload/v1642576911/winnie/civic/HC6_yoxgut.jpg"
             width={6}
-            height={6}
+            height={5}
             layout="responsive"
           />
           <Image
             className="object-cover"
             src="https://res.cloudinary.com/wrp/image/upload/v1642576911/winnie/civic/HC4_gg3cdt.jpg"
             width={6}
-            height={6}
+            height={5}
             layout="responsive"
           />
-        </div>
+        {/* </div> */}
         <Image
           className="object-cover shadow-md"
           src="https://res.cloudinary.com/wrp/image/upload/v1642576912/winnie/civic/MG_2676_a26mlw.jpg"

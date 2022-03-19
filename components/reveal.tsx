@@ -22,7 +22,6 @@ const textStyles = {
   fontSize: '42px',
   lineHeight: '50px',
   fontFamily: 'sans-serif',
-  textAlign: 'center',
   paddingLeft: '0.5em',
   letterSpacing: '0.3em',
 };
@@ -32,7 +31,6 @@ const textStyles2 = {
   fontSize: '30px',
   lineHeight: '50px',
   fontFamily: 'sans-serif',
-  textAlign: 'center',
   paddingLeft: '0.4em',
   letterSpacing: '0.2em',
 }
