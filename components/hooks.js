@@ -15,3 +15,30 @@ export const useWindowTop = () => {
     });
     return showBanner;
 }
+
+const getWindowDimensions = () => {
+  if (typeof window !== "undefined") {
+    const { innerWidth: width = 0, innerHeight: height = 0 } = window || {};
+    return {
+      width,
+      height
+    };
+  } else {
+    return { width: 100, height: 100 }
+  }
+}
+
+export const useWindowDimensions = () => {
+  const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowDimensions(getWindowDimensions());
+    }
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  return windowDimensions;
+}

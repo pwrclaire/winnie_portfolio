@@ -9,10 +9,10 @@ module.exports = {
         "nav-reveal": {
           "0%": {
             opacity: "50",
-            transform: "translateY(-10px)",
+            transform: "translateY(-5px)",
           },
           "50%": {
-            height: "24px",
+            height: "40px",
           },
           "100%": {
             opacity: "1",

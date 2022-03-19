@@ -49,7 +49,7 @@ export default function ContactForm() {
           <div className="max-w-md w-full absolute top-16 space-y-10 z-10 p-12 m-12 sm:bg-inherit">
             <div>
               <h2 className="mt-6 text-center text-4xl text-black">
-                Contact me!
+                Contact me
               </h2>
             </div>
             <form
@@ -119,10 +119,10 @@ export default function ContactForm() {
               <div>
                 <button
                   type="submit"
-                  className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-black bg-[#4AB1A1] hover:bg-[#398a7e] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                  className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-[#4AB1A1] hover:bg-[#398a7e] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                   <span className="absolute left-0 inset-y-0 flex items-center pl-3"></span>
-                  Submit
+                  Send
                 </button>
               </div>
             </form>

@@ -1,22 +1,23 @@
 import React from "react";
-// import Image from "next/image";
 import Hamburger from "../components/hamburger";
+import Reveal from "../components/reveal";
 
 export default function Home() {
   return (
     <div>
-        <Hamburger />
+      <Hamburger />
       <span className="md:leading-[4rem] h-0 z-10 drop-shadow-xl absolute w-full align-center text-white inset-y-[40%] text-center">
-        <h2 className="font-sans text-8xl md:text-5xl sm:text-4xl font-bold text-black">
+        <h2 className="font-sans text-8xl md:text-6xl sm:text-5xl font-bold text-black">
           WINNIE LOK
         </h2>
-        <h2 className="font-sans text-6xl md:text-4xl sm:text-3xl text-[#4AB1A1]">
+        {/* <h2 className="font-sans text-6xl md:text-4xl sm:text-3xl text-[#4AB1A1]">
           PHOTOGRAPHY
-        </h2>
-        <div
+        </h2> */}
+        {/* <div
           className="animate-pulser transition-all relative h-2 duration-500 mt-5 md:mt-2"
           style={styles.bar}
-        ></div>
+        ></div> */}
+        <Reveal />
       </span>
     </div>
   );

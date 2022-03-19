@@ -7,18 +7,20 @@ export default function Nav() {
     <nav
       className={`absolute flex items-center justify-end w-full z-50 top-0 h-25`}
     >
-      {/* brand */}
+      {/* LEFT - brand */}
       <h2 className="w-full p-10 text-left text-black text-2xl md:text-lg">
         <a href="/">
           <strong className="text-3xl md:text-2xl">WINNIE LOK</strong>{" "}
-          PHOTOGRAPHY
+          <span className="text-3xl md:text-2xl">PHOTOGRAPHY</span>
         </a>
       </h2>
-      {/* hamburger menu */}
+  
+      {/* RIGHT - HAMBURGER MENU */}
       <div className="md:flex md:justify-end hidden">
+        <Hamburger />
+      </div>
         {/* <Hamburger className='top-3 right-4' /> */}
-
-        <Menu
+        {/* <Menu
           right
           width={280}
           styles={styles}
@@ -56,8 +58,9 @@ export default function Nav() {
             </a>
           </main>
         </Menu>
-      </div>
+      </div> */}
 
+      {/* LIST MENU */}
       <div
         className="w-full flex-grow flex lg:items-center md:w-auto md:pt-0 md:hidden p-10"
         id="nav-content"
@@ -75,6 +78,7 @@ export default function Nav() {
             <button className="text-black px-4 rounded inline-flex items-center">
               <span className="mr-1">Portfolio</span>
               <svg
+                color="#4AB1A1"
                 className="fill-current h-4 w-4"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
@@ -88,7 +92,7 @@ export default function Nav() {
               group-hover:animate-nav-reveal
               group-hover:transition-all`}
             >
-              <li className="">
+              <li className="bg-white">
                 <a
                   className="
                     rounded-t hover:text-shadow-grey py-2 px-4 block whitespace-no-wrap"
@@ -97,7 +101,7 @@ export default function Nav() {
                   Automotive
                 </a>
               </li>
-              <li className="">
+              <li className="bg-white">
                 <a
                   className=" hover:text-shadow-grey py-2 px-4 block whitespace-no-wrap"
                   href="/portrait"
@@ -105,7 +109,7 @@ export default function Nav() {
                   Portrait
                 </a>
               </li>
-              <li className="">
+              <li className="bg-white">
                 <a
                   className="rounded-b hover:text-shadow py-2 px-4 block whitespace-no-wrap"
                   href="/wedding"
