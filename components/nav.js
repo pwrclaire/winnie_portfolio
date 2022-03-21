@@ -20,7 +20,7 @@ export default function Nav() {
         <Hamburger />
       </div>
       
-      {/* LIST MENU */}
+      {/* RIGHT - LIST MENU */}
       <div
         className="w-full flex-grow flex lg:items-center md:w-auto md:pt-0 md:hidden p-10"
         id="nav-content"

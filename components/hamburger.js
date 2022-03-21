@@ -6,9 +6,9 @@ export default function Hamburger() {
     <>
       <div
         className={`${
-          open ? "top-0" : "-top-60"
+          open ? "top-20" : "-top-60"
           // open ? "right-0" : "-right-60"
-        } top-20 absolute text-2xl text-right transition-all duration-500 pt-1 pl-4 pr-8 pb-2 bg-white right-0`}
+        } absolute text-2xl text-right transition-all duration-500 pt-1 pl-4 pr-8 pb-2 bg-white right-0`}
       >
         <div className="flex flex-col gap-2 overflow-hidden w-[100%]">
           <a href="/automotive" className="hover:text-shadow-grey">
