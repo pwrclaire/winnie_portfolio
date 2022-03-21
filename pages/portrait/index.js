@@ -6,7 +6,7 @@ export default function People() {
   return (
     <>
       <Nav />
-      <div className="grid grid-cols-2 md:grid-cols-1 gap-6 p-10 mt-16 top-28">
+      <div className="grid grid-cols-2 md:grid-cols-1 gap-6 p-10 mt-16 md:gap-5 md:p-6 top-28">
         {/* chris */}
         <div className="relative h-[90vh] md:h-[40vh]">
           <a a href="/portrait/chris">

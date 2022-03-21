@@ -5,61 +5,21 @@ import Hamburger from "../components/hamburger";
 export default function Nav() {
   return (
     <nav
-      className={`absolute flex items-center justify-end w-full z-50 top-0 h-25`}
+      className={`absolute flex items-center justify-end w-screen z-50 top-0 h-24`}
     >
       {/* LEFT - brand */}
-      <h2 className="w-full p-10 text-left text-black text-2xl md:text-lg">
+      <h2 className="w-full p-10 md:pl-6 text-left text-black text-2xl md:text-lg">
         <a href="/">
-          <strong className="text-3xl md:text-2xl">WINNIE LOK</strong>{" "}
-          <span className="text-3xl md:text-2xl">PHOTOGRAPHY</span>
+          <strong className="text-3xl md:text-xl sm:text-sm">WINNIE LOK</strong>{" "}
+          <span className="text-3xl md:text-xl sm:text-sm">PHOTOGRAPHY</span>
         </a>
       </h2>
   
       {/* RIGHT - HAMBURGER MENU */}
-      <div className="md:flex md:justify-end hidden">
+      <div className="md:flex md:justify-end hidden w-full flex-grow">
         <Hamburger />
       </div>
-        {/* <Hamburger className='top-3 right-4' /> */}
-        {/* <Menu
-          right
-          width={280}
-          styles={styles}
-          pageWrapId={"page-wrap"}
-          outerContainerId={"outer-container"}
-        >
-          <main>
-            <a href="/">
-              <p className="text-shadow-grey-light hover:text-shadow-white">
-                Home
-              </p>
-            </a>
-            <ul>
-              <span>Portfolio</span>
-              <a href="/automotive">
-                <li className="pl-3 text-shadow-grey-light hover:text-shadow-white">
-                  Automotive
-                </li>
-              </a>
-              <a href="/portrait">
-                <li className="pl-3 text-shadow-grey-light hover:text-shadow-white">
-                  Portrait
-                </li>
-              </a>
-              <a href="/wedding">
-                <li className="pl-3 text-shadow-grey-light hover:text-shadow-white">
-                  Wedding
-                </li>
-              </a>
-            </ul>
-            <a href="/contact">
-              <p className="text-shadow-grey-light hover:text-shadow-white">
-                Contact
-              </p>
-            </a>
-          </main>
-        </Menu>
-      </div> */}
-
+      
       {/* LIST MENU */}
       <div
         className="w-full flex-grow flex lg:items-center md:w-auto md:pt-0 md:hidden p-10"
