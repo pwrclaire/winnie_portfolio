@@ -6,7 +6,7 @@ export default function Cars() {
   return (
     <>
       <Nav />
-      <div className="grid grid-cols-2 md:grid-cols-1 gap-6 md:gap-5 md:p-6 p-10 mt-16">
+      <div className="grid grid-cols-2 lg:grid-cols-1 gap-6 md:gap-5 md:p-6 p-10 mt-16">
         {/* jaguar */}
         <div className="relative h-[90vh] md:h-[40vh]">
           <a a href="/automotive/jaguar">

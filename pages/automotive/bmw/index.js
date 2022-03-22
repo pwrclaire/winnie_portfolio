@@ -17,12 +17,12 @@ export default function BWM() {
               <Image priority className='object-cover' src="https://res.cloudinary.com/wrp/image/upload/v1642146255/winnie/bmw/BMW340i_8_utwtuh.jpg" width={9} height={6} layout='responsive'/>
             {/* </div> */}
             <div className='col-span-2'>
-              <Image priority className="object-cover shadow-md" src="https://res.cloudinary.com/wrp/image/upload/v1642146256/winnie/bmw/BMW340i_5_o5jmkn.jpg" width={9} height={6} layout='responsive'/>
+              <Image priority className="object-cover shadow-md" src="https://res.cloudinary.com/wrp/image/upload/v1647932910/winnie/bmw/BMW340i_5_qo9qrz.jpg" width={9} height={6} layout='responsive'/>
             </div>
               <Image priority className='object-cover' src="https://res.cloudinary.com/wrp/image/upload/v1642146256/winnie/bmw/BMW340i_1_lypsxv.jpg" width={9} height={6} layout='responsive'/>
               <Image priority className="object-cover shadow-md object-bottom " src="https://res.cloudinary.com/wrp/image/upload/v1642146256/winnie/bmw/BMW340i_4_u43k7z.jpg" width={9} height={6} layout='responsive'/>
             <div className='col-span-2'>
-            <Image priority className="object-cover shadow-md" src="https://res.cloudinary.com/wrp/image/upload/v1642146256/winnie/bmw/BMW340i_7_u7ynob.jpg" width={9} height={6} layout='responsive'/>
+            <Image priority className="object-cover shadow-md" src="https://res.cloudinary.com/wrp/image/upload/v1647932911/winnie/bmw/BMW340i_7_fd4rcm.jpg" width={9} height={6} layout='responsive'/>
             </div>
           </div>
       </div>

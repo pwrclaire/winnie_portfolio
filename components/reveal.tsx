@@ -1,36 +1,21 @@
 import React, { useState, useEffect }from "react";
 import R from "react-reveal-text";
-import { useWindowDimensions } from './hooks';
 
-export default function Revealf() {
+export default function Reveal() {
   const [toShow, setToShow] = useState(false);
-  const lg = useWindowDimensions().width > 768;
   useEffect(() => {
     setTimeout(() => {
       setToShow(true);
     }, 300);
   }, [])
   return (
-    <div style={lg ? textStyles : textStyles2}>
+    <div>
+      <div className="md:text-6xl sm:text-7xl text-8xl text-black font-bold	tracking-wider font-sans">
+        <R show={toShow}>WINNIE LOK</R>
+      </div>
+    <div className="text-6xl md:text-4xl text-[#4AB1A1] font-semibold tracking-wider font-sans">
       <R show={toShow}>PHOTOGRAPHY</R>
     </div>
+    </div>
   );
-}
-
-const textStyles = {
-  color: '#4AB1A1',
-  fontSize: '42px',
-  lineHeight: '50px',
-  fontFamily: 'sans-serif',
-  paddingLeft: '0.5em',
-  letterSpacing: '0.3em',
-};
-
-const textStyles2 = {
-  color: '#4AB1A1',
-  fontSize: '30px',
-  lineHeight: '50px',
-  fontFamily: 'sans-serif',
-  paddingLeft: '0.4em',
-  letterSpacing: '0.2em',
 }

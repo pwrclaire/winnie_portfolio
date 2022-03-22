@@ -10,7 +10,7 @@ export default function Chris() {
 			<h2 className='text-5xl md:text-4xl text-center py-6'>Wendy & Kevin</h2>
 			<div className="grid grid-cols-2 gap-6 md:flex md:flex-col">
 				<div className='col-span-2'>
-					<Image priority className="object-cover shadow-md object-right" src="https://res.cloudinary.com/wrp/image/upload/v1642146253/winnie/wendy_kevin/KW-218_x0auj7.jpg" width={9} height={6} layout='responsive' />
+					<Image priority className="object-cover shadow-md object-center" src="https://res.cloudinary.com/wrp/image/upload/v1647931307/winnie/wendy_kevin/KW-219_y9i4gy.jpg" width={2} height={3} layout='responsive' />
 				</div>
 				<Image priority className="object-cover object-top shadow-md" src="https://res.cloudinary.com/wrp/image/upload/v1642146254/winnie/wendy_kevin/KW-117_dis4eg.jpg" width={2} height={3} layout='responsive' />
 				<Image priority className="object-cover object-top shadow-md" src="https://res.cloudinary.com/wrp/image/upload/v1642146254/winnie/wendy_kevin/KW-114_i14dus.jpg" width={2} height={3} layout='responsive' />
@@ -18,9 +18,9 @@ export default function Chris() {
 				<Image priority className="object-cover shadow-md" src="https://res.cloudinary.com/wrp/image/upload/v1642146254/winnie/wendy_kevin/KW-217_juazvh.jpg" width={5} height={7} layout='responsive' />
 				<div className='col-span-2'>
 					<div className='grid grid-cols-3 gap-6 md:flex md:flex-col'>
-						<Image priority className="object-cover shadow-md" src="https://res.cloudinary.com/wrp/image/upload/v1642146253/winnie/wendy_kevin/KW-233_sobe2o.jpg" width={2} height={3} layout='responsive' />
-						<Image priority className="object-cover shadow-md" src="https://res.cloudinary.com/wrp/image/upload/v1642146254/winnie/wendy_kevin/KW-170_tscyff.jpg" width={2} height={3} layout='responsive' />
-						<Image priority className="object-cover shadow-md" src="https://res.cloudinary.com/wrp/image/upload/v1642146253/winnie/wendy_kevin/KW-232_jin5tp.jpg" width={2} height={3} layout='responsive' />
+						<Image priority className="object-cover shadow-md" src="https://res.cloudinary.com/wrp/image/upload/v1647933123/winnie/wendy_kevin/KW-233_cv3fpw.jpg" width={2} height={3} layout='responsive' />
+						<Image priority className="object-cover shadow-md" src="https://res.cloudinary.com/wrp/image/upload/v1647933121/winnie/wendy_kevin/KW-170_yjkwxu.jpg" width={2} height={3} layout='responsive' />
+						<Image priority className="object-cover shadow-md" src="https://res.cloudinary.com/wrp/image/upload/v1647933124/winnie/wendy_kevin/KW-232_a4aquq.jpg" width={2} height={3} layout='responsive' />
 
 					</div>
 				</div>
